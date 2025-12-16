@@ -61,7 +61,7 @@ PA5 (DHT11)    -->
 PA6 (LDR2)     --> PB1 (Relé CH4)
 
 PA7 (LDR1)     --> PC14 (Relé CH2)
-<<<<<<< HEAD
+
 =======
 
 SAÍDA OBTIDA DURANTE TESTES:
