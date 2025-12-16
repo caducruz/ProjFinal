@@ -1,4 +1,11 @@
-# ELT73A-Proj_Final - REQUISITOS
+# ELT73A-Proj_Final -
+
+
+ALUNOS: CARLOS EDUARDO DA CRUZ E LEONARDO MUCHAGATA
+TURMA S21
+
+
+REQUISITOS
 -----------------------------------------------------------------------------------------------
 1) Conter pelo menos um dispositivo de entrada (Teclado, botão, sensor...) (10%);
 2) Utilizar pelo menos um periférico dedicado (ADC, PWM, DMA, Timer...) (10%);
