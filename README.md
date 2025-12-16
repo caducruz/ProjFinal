@@ -41,7 +41,7 @@ jumpers
 * FUNCIONAMENTO
 ***********************************************************************************************
 O sistema está configurado com FreeRTOS e tasks diferentes para cada pino de sáida.
-Inicialmente o pino PA0 foi configurado com interrupsão e então alterado para uma *TASK* do FreeRTOS. Precionando o botão, tanto da placa de desenvolvimento quanto o do *protoboard*, alteras-se o estafo da *flag* BLUELED, alterando o estado do pino PC13 de *High* para  *Low*, o que fará com que acenda ou apague o LED azul da placa, e consequentemente ligue ou desligue o canal 1 do módulo de relé.
+Inicialmente o pino PA0 foi configurado com interrupção e então alterado para uma *TASK* do FreeRTOS. Precionando o botão, tanto da placa de desenvolvimento quanto o do *protoboard*, alteras-se o estafo da *flag* BLUELED, alterando o estado do pino PC13 de *High* para  *Low*, o que fará com que acenda ou apague o LED azul da placa, e consequentemente ligue ou desligue o canal 1 do módulo de relé.
 
 PA1 configurado como entrada analógica recebe o sinal da sonda DS18B20 pelo ADC, e atravéz de lógica habilita a saída PC15 (canal 3 do relé).
 
@@ -65,13 +65,9 @@ PA7 (LDR1)     --> PC14 (Relé CH2)
 =======
 
 *************************************************************************************************
-* DADHBOAR / MQTT Client
+* DADHBOARD / MQTT Client
 *************************************************************************************************
 ![image](https://github.com/user-attachments/assets/9a389fac-8d79-4e97-a5c8-6e9c2d75d135)
 ![Imagem do WhatsApp de 2025-02-21 à(s) 15 37 16_ac2d3330](https://github.com/user-attachments/assets/8792de7e-fd52-4b26-8a54-49f52d8f6089)
 
->>>>>>> branch-novo
-<<<<<<< HEAD
-=======
 
->>>>>>> branch-novo
